@@ -1,0 +1,7 @@
+version: '3'
+services:
+  gmart:
+    build: .
+    ports:
+      - "7070:80"
+    container_name: gmart-container
